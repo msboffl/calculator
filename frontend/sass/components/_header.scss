@@ -1,0 +1,16 @@
+@use "../global/fonts" as fonts;
+
+.calc__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .theme {
+        font-family: fonts.$LeagueSpartan-Regular, sans-serif;
+
+        .theme__text {
+            font-size: .8em;
+            letter-spacing: 1px;
+        }
+    }
+}

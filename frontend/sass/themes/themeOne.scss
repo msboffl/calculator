@@ -1,0 +1,11 @@
+@use "../global/colors" as colors;
+
+.theme-one {
+    background-color: colors.$dark-blue-main-bg;
+    color: #ffffff;
+
+}
+.calc__display {
+    background-color: colors.$dark-blue-screen-bg;
+    
+}
