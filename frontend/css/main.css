@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "LeagueSpartan-Regular";
+  src: url("../../fonts/LeagueSpartan-Regular.ttf");
+}
+@font-face {
+  font-family: "LeagueSpartan-Thin";
+  src: url("../../fonts/LeagueSpartan-Thin.ttf");
+}
+@font-face {
+  font-family: "LeagueSpartan-Light";
+  src: url("../../fonts/LeagueSpartan-Light.ttf");
+}
+@font-face {
+  font-family: "LeagueSpartan-Medium";
+  src: url("../../fonts/LeagueSpartan-Medium.ttf");
+}
+@font-face {
+  font-family: "LeagueSpartan-SemiBold";
+  src: url("../../fonts/LeagueSpartan-SemiBold.ttf");
+}
+@font-face {
+  font-family: "LeagueSpartan-Bold";
+  src: url("../../fonts/LeagueSpartan-Bold.ttf");
+}
+.theme-one {
+  background-color: hsl(222deg, 26%, 31%);
+  color: #ffffff;
+}
+
+.calc__display {
+  background-color: hsl(224deg, 36%, 15%);
+}
+
+.calc__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.calc__header .theme {
+  font-family: "LeagueSpartan-Regular", sans-serif;
+}
+.calc__header .theme .theme__text {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+.calc__display {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.calc__display .calc__input {
+  font-size: 2.5rem;
+  margin-right: 16px;
+  font-weight: 900;
+}
+
+.calc__main {
+  padding: 1em;
+  background-color: aqua;
+}
+.calc__main .calc__buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+body {
+  font-family: "LeagueSpartan-SemiBold", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=main.css.map */

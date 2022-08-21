@@ -1,0 +1,42 @@
+$LeagueSpartan-path: "../../fonts";
+
+// <===== Font Variable ====>
+$LeagueSpartan-Regular: "LeagueSpartan-Regular";
+$LeagueSpartan-Thin: "LeagueSpartan-Thin";
+$LeagueSpartan-Light: "LeagueSpartan-Light";
+$LeagueSpartan-Medium: "LeagueSpartan-Medium";
+$LeagueSpartan-SemiBold: "LeagueSpartan-SemiBold";
+$LeagueSpartan-Bold: "LeagueSpartan-Bold";
+
+
+// <===== Font Paths ====> 
+@font-face {
+    font-family: "LeagueSpartan-Regular";
+    src: url("#{$LeagueSpartan-path}/LeagueSpartan-Regular.ttf");
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Thin";
+    src: url("#{$LeagueSpartan-path}/LeagueSpartan-Thin.ttf");
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Light";
+    src: url("#{$LeagueSpartan-path}/LeagueSpartan-Light.ttf");
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Medium";
+    src: url("#{$LeagueSpartan-path}/LeagueSpartan-Medium.ttf");
+}
+
+@font-face {
+    font-family: "LeagueSpartan-SemiBold";
+    src: url("#{$LeagueSpartan-path}/LeagueSpartan-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "LeagueSpartan-Bold";
+    src: url("#{$LeagueSpartan-path}/LeagueSpartan-Bold.ttf");
+}
+
