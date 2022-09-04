@@ -1,9 +1,0 @@
-.calc__main {
-    padding: 1em;
-    background-color: aqua;
-    .calc__buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 10px;
-    }
-}

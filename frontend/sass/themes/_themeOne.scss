@@ -1,0 +1,28 @@
+@use "../global/colors" as *;
+
+.themeOne {
+    background-color: $dark-blue-main-bg;
+    color: $pure-white;
+}
+.calc-display {
+    background-color: $dark-blue-screen-bg;
+}
+.btn-container {
+    background-color: $dark-blue-toggle-keypad-bg;
+    button {
+        border: none;
+        color: $very-dark-grayish-blue;
+        background-color: $greyish-orange-key-bg;
+        box-shadow: 0px 5px $greyish-orange-key-shadow;  
+    }
+    .btn__blue {
+        background-color: $dark-blue-key-bg;
+        box-shadow: 0px 5px $dark-blue-key-shadow;
+        color: $pure-white;
+    }
+    .btn__red {
+        color: $pure-white;
+        background-color: $red-toggle-key-bg;
+        box-shadow: 0px 5px $dark-red-key-shadow;
+    }
+}

@@ -1,0 +1,27 @@
+@use "../global/fonts" as font;
+
+@use "./mixins" as *;
+
+.btn-container {
+    @include border-radius;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.25rem;
+    padding: 2em;
+    width: 35em;
+    height: 100%;
+
+    button {
+        @include border-radius;
+        font-family: font.$LeagueSpartan-Bold, sans-serif;
+        font-size: 1.85em;
+        padding: .7em 10px .5em 10px;
+        cursor: pointer;
+    }
+    button.reset {
+        grid-column: 1/3;
+    }
+    button.equal {
+        grid-column: 3/5;
+    }
+}

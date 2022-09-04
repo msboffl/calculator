@@ -12,51 +12,41 @@
     <link rel="stylesheet" href="../css/main.css" />
     <title>Calculator</title>
   </head>
-  <body class="theme-one theme-two theme-three">
-    <div class="appContainer">
-      <!-- <header class="calc__header">
-        <div class="logo">
+  <body class="themeOne themeTwo themeThree">
+    <div class="calc-container">
+      <div class="calc-heaader">
+        <header class="header">
           <h1>calc</h1>
-        </div>
-        <div class="theme">
-                <span class="theme__text">THEME</span>
-                <div class="theme__radio">
-                    <label for="theme__1">1</label>
-                    <input type="radio" name="theme" id="theme__1">
-                    <label for="theme__2">2</label>
-                    <input type="radio" name="theme" id="theme__2">
-                    <label for="theme__3">3</label>
-                    <input type="radio" name="theme" id="theme__3">
-                </div>
-            </div>
-      </header>
-      <div class="calc__display">
-        <div class="calc__input">399,981</div>
-      </div> -->
-      <main class="calc__main">
-        <div class="calc__buttons">
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>DEL</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>+</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>-</button>
-          <button>.</button>
-          <button>0</button>
-          <button>/</button>
-          <button>*</button>
-          <button class="reset">RESET</button>
-          <button class="equal">=</button>
-        </div>
-      </main>
+          <div class="calc-theme">theme</div>
+        </header>
+      </div>
+      <div class="calc-display">
+        <div data-previous class="calc-dispaly__previous"></div>
+        <div data-current class="calc-dispaly__current"></div>
+      </div>
+      <div class="calc-main">
+        <main class="btn-container">
+          <button data-number>7</button>
+          <button data-number>8</button>
+          <button data-number>9</button>
+          <button data-delete class="btn__blue delete">DEL</button>
+          <button data-number>4</button>
+          <button data-number>5</button>
+          <button data-number>6</button>
+          <button data-operation>+</button>
+          <button data-number>1</button>
+          <button data-number>2</button>
+          <button data-number>3</button>
+          <button data-operation>-</button>
+          <button data-number>.</button>
+          <button data-number>0</button>
+          <button data-operation>÷</button>
+          <button data-operation>×</button>
+          <button data-clear class="btn__blue reset">RESET</button>
+          <button data-equal class="btn__red equal"> = </button>
+        </main>
+      </div>
     </div>
-
     <script src="../js/main.js"></script>
   </body>
 </html>
